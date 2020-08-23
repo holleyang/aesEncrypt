@@ -1,0 +1,21 @@
+{
+    "name": "aes-encrypt/aes-encrypt",
+    "description": "对称加解密",
+    "authors": [
+        {
+            "name": "zhangxiaoyu",
+            "email": "phpyang@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AesEncrypt\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
